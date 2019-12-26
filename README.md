@@ -8,6 +8,8 @@
 
 ----------
 
+fork 改动： 修改了 src/providers/export/vottJson, 使得 VoTT 在标准完成导出时如果选择 VoTT JSon 格式，会直接导出 COCO Json。 符合本团队的数据集格式
+
 An open source annotation and labeling tool for image and video assets.
 
 VoTT is a React + Redux Web application, written in [TypeScript](https://github.com/Microsoft/TypeScript). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
